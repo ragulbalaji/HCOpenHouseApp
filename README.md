@@ -7,5 +7,6 @@
 
 ### Authors:
 - Ragul Balaji
+- Ho Jie Feng
 
 Released Under GNU GPL v2
