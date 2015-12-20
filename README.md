@@ -3,6 +3,7 @@
 
 ### Tech:
 - Using PhoneGap 5.X.X
+- jQuery & jQuery Mobile
 - npm & nodejs
 
 ### Authors:
