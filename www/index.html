@@ -32,7 +32,7 @@
                 <img id="mainlogo" src="img/hcibanner.png">
 
                 <p><a class="mainbtns" href="#two" data-role="button">Curriculum</a></p>
-                <p><a class="mainbtns" href="#three" data-role="button">Activities</a></p>
+                <p><a class="mainbtns" href="#activities" data-role="button">Activities</a></p>
                 <p><a class="mainbtns" href="#three" data-role="button">Maps</a></p>
                 <p><a class="mainbtns" href="#three" data-role="button">More Info</a></p>
             </center>
@@ -41,6 +41,7 @@
 
     <div data-role="page" id="two" data-theme="a">
         <div data-role="content" data-theme="a">
+
             <h2>Two</h2>
             <p>I have an id of "two" on my page container. I'm the second page container in this multi-page template.</p>
             <p>Notice that the theme is different for this page because we've added a few <code>data-theme</code> swatch assigments here to show off how flexible it is. You can add any content or widget to these pages, but we're keeping these simple.</p>
@@ -49,15 +50,38 @@
         </div>
     </div>
 
-    <div data-role="page" id="three" data-theme="a">
+    <div data-role="page" id="activities" data-theme="a">
         <div data-role="content" data-theme="a">
-            <h2>Three</h2>
-
-            <p><a href="#mainpage" data-direction="reverse" data-role="button" data-theme="b">Main</a></p>
+	    	<center>
+                <p><a class="mainbtns" href="#cns" data-role="button">Clubs and Societies</a></p>
+                <p><a class="mainbtns" href="#sports" data-role="button">Sports</a></p>
+                <p><a class="mainbtns" href="#perfart" data-role="button">Performing Arts</a></p>
+            </center>
 
         </div>
     </div>
+    
+	<div data-role="page" id="cns" data-theme="a">
+        <div data-role="content" data-theme="a">
+	    	<center>
+                <p><a class="mainbtns" href="#infosoc" data-role="button">Infocomm Society</a></p>
+                <p><a class="mainbtns" href="#infosoc" data-role="button">Sensorium Vale</a></p>
+                <p><a class="mainbtns" href="#infosoc" data-role="button">Astronomy Club</a></p>
+                <p><a class="mainbtns" href="#infosoc" data-role="button">PA/AVA</a></p>
+                <p><a class="mainbtns" href="#infosoc" data-role="button">Math Appreciation Club</a></p>
+            </center>
 
+        </div>
+    </div>
+    <div data-role="page" id="infosoc" data-theme="a">
+        <div data-role="content" data-theme="a">
+	    	<center>
+            	<h2>Infocomm Society</h2>
+                <p>test test test</p>
+            </center>
+
+        </div>
+    </div>
 </body>
 <script>
     start();
