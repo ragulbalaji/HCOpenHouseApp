@@ -27,12 +27,12 @@ body {
     background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #A7A7A7), color-stop(0.51, #E4E4E4));
     background-attachment: fixed;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    text-transform: uppercase;
     width: 100%;
+    text-align: justify;
 }
 
 
@@ -50,12 +50,23 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: normal;
     margin: 0px;
     overflow: visible;
     padding: 0px;
     text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    overflow: visible;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: justify;
 }
 
 #mainlogo {
@@ -69,12 +80,53 @@ h1 {
     background-size: cover;
 }
 
+#cns {
+    background: url("../img/activitiesbg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#moreinfo {
+    background: url("../img/code.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
 .mainbtns {
+    font-size: 24px;
+}
+
+.subbtns {
+    font-size: 16px;
+}
+
+.myheader {
+    margin-top: 20px;
+}
+
+.contentpage {
+    background: url("../img/activitiesbg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.face {
     width: 70vw;
+    height: auto;
+}
+
+.builtbyhcirs {
+    width: 90vw;
+    height: auto;
+}
+
+.myicons {
+    display: inline-block;
+    width: 30vw;
+    padding: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    height: auto;
 }
 
 li {
-	font-size: 16px;
-	text-align: center;
-
+    font-size: 16px;
+    text-align: center;
 }

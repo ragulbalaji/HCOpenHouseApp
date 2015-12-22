@@ -10,23 +10,24 @@
 
 function start() {
     $("#mainlogo").fadeIn(1500, function () {});
-    //create the cca pages
-	for(name in ccas)
-	{
-		$('body').append($('<div>')
-						.attr('data-role','page')
-						.attr('id',name)
-						.attr('data-theme','a')
-						.css('background-image', 'url(' + ccas[name].backgroundimg + ')')
-						.append($('<div>')
-								.attr('data-role','content')
-								.attr('data-theme','a')
-								.append($('<center>')
-									.append($('<h2>').html(ccas[name].fullname))
-									.append($('<p>').html(ccas[name].introduction.replace(/(?:\r\n|\r|\n)/g, '<br />')))
-									.append($('<p>').html(ccas[name].content.replace(/(?:\r\n|\r|\n)/g, '<br />')))
-								)
-						)
-		);
-	}
+
+
+    /*//create the cca pages
+    for (name in ccas) {
+        $('body').append($('<div>')
+            .attr('data-role', 'page')
+            .attr('id', name)
+            .attr('class', 'contentpage')
+            .css('background-image', 'url(' + ccas[name].img + ')')
+            .append($('<div>')
+                .attr('data-role', 'content')
+                .attr('data-theme', 'a')
+                .append($('<center>')
+                    .append($('<h2>').html(ccas[name].fullname))
+                    .append($('<p>').html(ccas[name].introduction.replace(/(?:\r\n|\r|\n)/g, '<br />')))
+                    .append($('<p>').html(ccas[name].content.replace(/(?:\r\n|\r|\n)/g, '<br />')))
+                )
+            )
+        );
+    }//*/
 }
