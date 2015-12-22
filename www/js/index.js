@@ -8,7 +8,7 @@
  * 
  */
 
-function start() {
+$(function () {
     $("#mainlogo").fadeIn(1500, function () {});
 
 	//create CCA buttons
@@ -49,4 +49,4 @@ function start() {
             )
         );
     }//*/
-}
+});
