@@ -75,7 +75,7 @@
 
         </div>
     </div>
-
+	<!-- ACADEMIC SUBJECTS -->
     <div data-role="page" id="subjects">
         <div data-role="header" class="myheader" data-theme="b">
             <a href="#curriculum" data-icon="carat-l">Curriculum</a>
@@ -83,12 +83,30 @@
         </div>
         <div data-role="content">
             <center>
-                <p><a class="subbtns" href="" data-role="button">General Paper...</a></p>
+                <form class="ui-filterable">
+
+                    <input id="rich-autocomplete-input" data-type="search" placeholder="Search for names">
+                </form>
+                <ul data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input">
+
+                </ul>
             </center>
 
         </div>
     </div>
+	<div data-role="page" id="subjectpage">
+        <div data-role="header" class="myheader" data-theme="b">
+            <a data-rel="back" data-icon="carat-l">Back</a>
+            <h1>Academics</h1>
+        </div>
+        <div data-role="content">
+            <center>
+                <p></p>
+            </center>
 
+        </div>
+    </div>
+	<!-- CCA LISTS -->
     <div data-role="page" id="ccas">
         <div data-role="header" class="myheader" data-theme="b">
             <a href="#curriculum" data-icon="carat-l">Curriculum</a>
@@ -137,8 +155,4 @@
 	</div>
 	
 </body>
-<script>
-    start();
-</script>
-
 </html>

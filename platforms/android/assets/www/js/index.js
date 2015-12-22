@@ -8,7 +8,7 @@
  * 
  */
 
-function start() {
+$(function () {
     $("#mainlogo").fadeIn(1500, function () {});
 
 	//create CCA buttons
@@ -25,11 +25,27 @@ function start() {
     }
     $('#cns ul li a').on('click',function(e) {
     	var ccaname = $(this).attr('data-ccaname');
-    	$('#ccapage').css('background-image', 'url("' + ccas[ccaname].backgroundimg + '")');
+    	$('#ccapage').css('background', 'url("' + ccas[ccaname].backgroundimg + '") no-repeat center center fixed');
     	$('#ccamainimg').attr('src',ccas[ccaname].mainimg);
     	$('#ccapage h1').html(ccas[ccaname].fullname);
     	$('#ccaintro').html(ccas[ccaname].introduction.replace(/(?:\r\n|\r|\n)/g, '<br />'));
     	$('#ccacontent').html(ccas[ccaname].content.replace(/(?:\r\n|\r|\n)/g, '<br />'));
+    });
+    
+    for (name in academics) {
+    	$('#subjects ul').append(
+    		$('<li>').attr('data-filtertext',academics[name].searchtags)
+    				 .attr('data-subjectname',name)
+    				 .append($('<a>')
+    				 		 .attr('href','#subjectpage').text(academics[name].fullname)
+    				 		 .attr('data-subjectname',name)
+    				 )
+    	);
+    }
+    $('#subjects ul li a').on('click',function(e) {
+    	var subjectname = $(this).attr('data-subjectname');
+    	$('#subjectpage h1').html(academics[subjectname].fullname);
+    	$('#subjectpage p').html(academics[subjectname].content.replace(/(?:\r\n|\r|\n)/g, '<br />'));
     });
     /*//create the cca pages
     for (name in ccas) {
@@ -49,4 +65,4 @@ function start() {
             )
         );
     }//*/
-}
+});
