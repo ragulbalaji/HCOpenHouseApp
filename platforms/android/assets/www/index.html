@@ -20,6 +20,7 @@
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <title>HC OpenHouse 2016</title>
 </head>
@@ -31,7 +32,7 @@
             <center>
                 <img id="mainlogo" src="img/hcibanner.png">
 
-                <p><a class="mainbtns" href="#two" data-role="button">Curriculum</a></p>
+                <p><a class="mainbtns" href="#curriculum" data-role="button">Curriculum</a></p>
                 <p><a class="mainbtns" href="#activities" data-role="button">Activities</a></p>
                 <p><a class="mainbtns" href="#three" data-role="button">Maps</a></p>
                 <p><a class="mainbtns" href="#three" data-role="button">More Info</a></p>
@@ -50,7 +51,16 @@
         </div>
     </div>
 
-    <div data-role="page" id="activities" data-theme="a">
+	<div data-role="page" id="curriculum" data-theme="a">
+        <div data-role="content" data-theme="a">
+	    	<center>
+                <p><a class="mainbtns" href="#subjects" data-role="button">Subjects Offered</a></p>
+                <p><a class="mainbtns" href="#ccas" data-role="button">CCAs</a></p>
+            </center>
+
+        </div>
+    </div>
+    <div data-role="page" id="ccas" data-theme="a">
         <div data-role="content" data-theme="a">
 	    	<center>
                 <p><a class="mainbtns" href="#cns" data-role="button">Clubs and Societies</a></p>
@@ -78,7 +88,7 @@
 
         </div>
     </div>
-    <div data-role="page" id="infosoc" data-theme="a">
+    <!--<div data-role="page" id="infosoc" data-theme="a">
         <div data-role="content" data-theme="a">
 	    	<center>
             	<h2>Infocomm Society</h2>
@@ -86,7 +96,7 @@
             </center>
 
         </div>
-    </div>
+    </div>-->
 </body>
 <script>
     start();
