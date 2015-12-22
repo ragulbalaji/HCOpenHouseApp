@@ -46,10 +46,16 @@
         </div>
         <div data-role="content">
             <center>
+                <h1 style="color:white; text-align:left; padding:0; margin:0;">Built by</h1>
                 <img class="builtbyhcirs" src="img/builtbyHCIRS.png">
+                <p style="color:white; padding:0; margin:4px; font-size:27px; text-align:center;">Programming &amp; Design</p>
+                <img class="face" src="img/ragulbalaji.png">
+                <img class="face" src="img/jiefeng.png">
+                <h1 style="color:white; padding:0; margin:0; font-size:24px;">VS Ragul Balaji &amp; Ho Jie Feng</h1>
+                <a onclick="window.open('https://ragulbalaji.github.io', '_blank', 'location=yes');" style="color:#3f90ff; padding:0; margin:0; font-size:24px;">https://ragulbalaji.github.io/</a>
+                <p style="color:white; padding:0; margin:0; font-size:20px; text-align:center;">Photos &amp; Info from Hwa Chong.</p>
                 <img class="myicons" src="img/ragulemblem.png">
                 <img class="myicons" src="img/pglogo.png">
-                <img class="face" src="img/ragulbalaji.png">
             </center>
         </div>
     </div>
@@ -63,6 +69,8 @@
             <center>
                 <p><a class="subbtns" href="#subjects" data-role="button">Academic Subjects</a></p>
                 <p><a class="subbtns" href="#ccas" data-role="button">CCAs</a></p>
+                <p><a class="subbtns" href="#subjects" data-role="button">H3 Programmes</a></p>
+                <p><a class="subbtns" onclick="window.open('http://www.hci.edu.sg/admissions/college/academic-programmes-college', '_blank', 'location=yes');" data-role="button">Hwa Chong Academic Website</a></p>
             </center>
 
         </div>
@@ -110,19 +118,24 @@
                 </form>
                 <ul data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input">
 
-                    <li data-filtertext="Infocomm Robotics Society HCIRS"><a href="#infosoc">Infocomm Society</a></li>
-
-                    <li data-filtertext="Astronomy Club"><a href="#infosoc">Astronomy Club</a></li>
-
-                    <li data-filtertext="Sensorium Vale"><a href="#infosoc">Sensorium Vale</a></li>
-
-                    <li data-filtertext="PA/AVA"><a href="#infosoc">PA/AVA</a></li>
-
-                    <li data-filtertext="Math Appreciation Club MAC"><a href="#infosoc">Math Appreciation Club</a></li>
                 </ul>
             </center>
         </div>
     </div>
+	<div data-role="page" id="ccapage" data-theme="a">
+		<div data-role="header" class="myheader" data-theme="b">
+            <a data-rel="back" data-icon="carat-l">Back</a>
+            <h1></h1>
+        </div>
+		<div data-role="content" data-theme="a">
+			<center>
+				<img id="ccamainimg"/>
+                <p id="ccaintro">test test test</p>
+                <p id="ccacontent">test test test</p>
+            </center>
+		</div>
+	</div>
+	
 </body>
 <script>
     start();

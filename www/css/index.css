@@ -90,6 +90,10 @@ p {
     background-size: cover;
 }
 
+#ccamainimg
+{
+	width: 80%;
+}
 .mainbtns {
     font-size: 24px;
 }
