@@ -64,11 +64,16 @@
 	<div data-role="page" id="cns" data-theme="a">
         <div data-role="content" data-theme="a">
 	    	<center>
-                <p><a class="mainbtns" href="#infosoc" data-role="button">Infocomm Society</a></p>
-                <p><a class="mainbtns" href="#infosoc" data-role="button">Sensorium Vale</a></p>
-                <p><a class="mainbtns" href="#infosoc" data-role="button">Astronomy Club</a></p>
-                <p><a class="mainbtns" href="#infosoc" data-role="button">PA/AVA</a></p>
-                <p><a class="mainbtns" href="#infosoc" data-role="button">Math Appreciation Club</a></p>
+                <form class="ui-filterable">
+				    <input id="rich-autocomplete-input" data-type="search" placeholder="Search for names">
+				</form>
+				<ul data-role="listview" data-filter="true" data-inset="true" data-input="#rich-autocomplete-input">
+				    <li data-filtertext="Infocomm Robotics Society HCIRS"><a href="#infosoc">Infocomm Society</a></li>
+				    <li data-filtertext="Astronomy Club"><a href="#infosoc">Astronomy Club</a></li>
+				    <li data-filtertext="Sensorium Vale"><a href="#infosoc">Sensorium Vale</a></li>
+				    <li data-filtertext="PA/AVA"><a href="#infosoc">PA/AVA</a></li>
+				    <li data-filtertext="Math Appreciation Club MAC"><a href="#infosoc">Math Appreciation Club</a></li>
+				</ul>
             </center>
 
         </div>

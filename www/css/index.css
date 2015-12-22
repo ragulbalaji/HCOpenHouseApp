@@ -72,3 +72,9 @@ h1 {
 .mainbtns {
     width: 70vw;
 }
+
+li {
+	font-size: 16px;
+	text-align: center;
+
+}
