@@ -27,7 +27,7 @@ body {
     background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #A7A7A7), color-stop(0.51, #E4E4E4));
     background-attachment: fixed;
     font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -80,7 +80,7 @@ p {
     background-size: cover;
 }
 
-#cns {
+#ccas {
     background: url("../img/activitiesbg.jpg") no-repeat center center fixed;
     background-size: cover;
 }
@@ -90,12 +90,21 @@ p {
     background-size: cover;
 }
 
+#ccapage {
+    background-size: cover;
+}
+
+#ccamainimg {
+    width: 100%;
+    height: auto;
+}
+
 .mainbtns {
     font-size: 24px;
 }
 
 .subbtns {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .myheader {
@@ -108,7 +117,11 @@ p {
 }
 
 .face {
-    width: 70vw;
+    display: inline-block;
+    width: 40vw;
+    padding: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
     height: auto;
 }
 
@@ -127,6 +140,6 @@ p {
 }
 
 li {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
 }
