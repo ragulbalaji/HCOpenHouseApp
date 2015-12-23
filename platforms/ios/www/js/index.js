@@ -47,6 +47,9 @@ $(function () {
     $('#subjects ul li a').on('click', function (e) {
         var subjectname = $(this).attr('data-subjectname');
         $('#subjectpage h1').html(academics[subjectname].fullname);
+        $('#subjectpage .subbtns').on('click', function(e){
+        	window.open(academics[subjectname].website, '_blank', 'location=yes');
+        });
         $('#subjectpage p').html(academics[subjectname].content.replace(/(?:\r\n|\r|\n)/g, '<br />'));
     });
 
