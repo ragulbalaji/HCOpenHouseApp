@@ -47,6 +47,7 @@ $(function () {
     $('#subjects ul li a').on('click', function (e) {
         var subjectname = $(this).attr('data-subjectname');
         $('#subjectpage h1').html(academics[subjectname].fullname);
+        //$('#subjectpage .subbtns').on('click', "alert('LOL')"); <<< VISIT WEBSITE BTN TESTING
         $('#subjectpage p').html(academics[subjectname].content.replace(/(?:\r\n|\r|\n)/g, '<br />'));
     });
 
