@@ -13,8 +13,21 @@ $(function () {
 
     //create CCA buttons
     for (name in ccas) {
+    	var additionaltags = "";
+    	if(ccas[name].img.indexOf("cns")>-1)
+    	{
+    		additionaltags = " Clubs and Societies";
+    	}
+    	else if(ccas[name].img.indexOf("sports")>-1)
+    	{
+    		additionaltags = " Sports";
+    	}
+    	else if(ccas[name].img.indexOf("arts")>-1)
+    	{
+    		additionaltags = " Performing Arts";
+    	}
         $('#ccas ul').append(
-            $('<li>').attr('data-filtertext', ccas[name].searchtags)
+            $('<li>').attr('data-filtertext', ccas[name].searchtags + additionaltags)
             .attr('data-ccaname', name)
             .append($('<a>')
                 .attr('href', '#ccapage').text(ccas[name].fullname)
@@ -47,9 +60,11 @@ $(function () {
     $('#subjects ul li a').on('click', function (e) {
         var subjectname = $(this).attr('data-subjectname');
         $('#subjectpage h1').html(academics[subjectname].fullname);
-        $('#subjectpage .subbtns').on('click', function(e){
+        /*$('#subjectpage .subbtns').on('click', function(e){
         	window.open(academics[subjectname].website, '_blank', 'location=yes');
-        });
+        });*/
+        $('#subjectpage .subbtns').attr('href',academics[subjectname].website);
+        
         $('#subjectpage p').html(academics[subjectname].content.replace(/(?:\r\n|\r|\n)/g, '<br />'));
     });
 
