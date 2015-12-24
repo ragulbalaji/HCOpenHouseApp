@@ -14,6 +14,14 @@ var ccas = {
         website: "https://some_website",
         img: "img/ccas/hcirs.jpg",
         searchtags: "test test test cca",
+    },
+    cca_template2: {
+        fullname: "CCA 2 TEST",
+        introduction: "Short info",
+        content: "main body page",
+        website: "https://some_website",
+        img: "img/ccas/hcirs.jpg",
+        searchtags: "super",
     }
 };
 
