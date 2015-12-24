@@ -15,6 +15,38 @@ var ccas = {
         img: "img/ccas/cns/hcirs.jpg",
         searchtags: "test test test cca"
     },
+    cca_template1: {
+        fullname: "CCA NAME",
+        introduction: "Short info",
+        content: "main body page",
+        website: "https://some_website",
+        img: "img/ccas/cns/hcirs.jpg",
+        searchtags: "test test test cca"
+    },
+    cca_template2: {
+        fullname: "CCA NAME",
+        introduction: "Short info",
+        content: "main body page",
+        website: "https://some_website",
+        img: "img/ccas/cns/hcirs.jpg",
+        searchtags: "test test test cca"
+    },
+    cipcouncil: {
+        content: "The CIP Council is a group of eight unique individuals who are deeply passionate about serving the community and dedicated to inculcating a culture of giving in Hwa Chong. Apart from bring ambassadors of service, we offer advice and assistance to many Service Learning projects and organise a wide range of CIP activities.<br><br>What we do:<br><br>Our key CIP activities include:<br><br>Our key events include:<br><br>",
+        fullname: "CIP COUNCIL",
+        img: "img/ccas/cns/cipcouncil.jpg",
+        introduction: "CCA Sessions:&nbsp;Dependant on activities; usually on Wednesdays.<br><br>Requirements: NIL<br><br>How to join:&nbsp;Applications open in late March. Before then, we encourage you to embark on your personal service journey!<br><br>Participation in Competitions: No<br><br>Who to contact:&nbsp;<br><br>cipcouncil@gmail.com / facebook.com/CIPCouncil / cip.hci.edu.sg&nbsp;<br><br>",
+        searchtags: "CIP COUNCIL",
+        website: "http://teamecaco.wix.com/"
+    },
+    astro: {
+        content: "Grand New Official Website (Lots of Info Inside!!!): http://hcastronomy.sg/ <br><br>Basic Information: Every year, we organise Astrigue Competition and Convention and with RI’s Astronomy Club and Night Under The Stars within our school. Academically speaking, we participate in NUS-NTU AstroChallenge and the Singapore Astronomy Olympiad. We also have regular star-gazing and participate in astronomy retreats in Malaysia, as well as club outings! <br><br>Think Astronomy is all about Doppler shift, Relativity or Kepler's Laws? Think again! Astronomy is more than just Physics, it's more than looking into the distant night sky or a telescope - it's about looking into the past. It's about looking into the unknown. It's about realizing how the universe works; it's about learning about our very own existence, understanding the mystical theories behind the amazing twinkles that shine proudly in the dark. Not everyone can look through a telescope and feel something for the planet, the binary star, the globular star cluster or the nebula they see; but everyone deserves a chance to marvel at the wonders of the Universe, everyone deserves to share, to enjoy the beauty of Astronomy! <br><br>Join us; you'll find your love in Astronomy! We're a bunch of very different people, yet similar in a way - in our desire to know more about the world around us, in our shared passion for the night sky, for the Milky Way; for the Universe. <br><br>Look up at a star - you're looking into the light from trillions of miles away. <br><br>Want to find out more? Visit our website and be amazed by how we photograph the beauty we see in telescopes into pictures in our Astrophotography gallery. Visit our website to see our a large array of activities! We guarantee you will be…STARSTRUCK! <br><br>Six telescopes. <br><br>Thirty members. <br><br>Ad Lucem. Ad Astra.Ad infinitum. <br><br>Facebook page: www.facebook.com/hcastronomy <br><br>",
+        fullname: "ASTRONOMY CLUB",
+        img: "img/ccas/cns/astro.jpg",
+        introduction: "CCA Session:&nbsp;<br><br>Venue: LT @ SRC<br><br>Requirements: NIL<br><br>How to Join: Contact us at hcastronomy@gmail.com<br><br>Participation in competitions: Yes&nbsp;<br><br>",
+        searchtags: "ASTRONOMY CLUB",
+        website: "http://teamecaco.wix.com/"
+    },
     art_club: {
         content: "In Art Club, you are given the freedom to pursue your passion alongside others who share the same feelings as you. Our club values include artistic improvement, as well as having a culture of fun and togetherness! <br><br>Weekly schedules are decided by the club, for the club. Much flexibility is given for the programme so that members can effectively use club time as their breather from hectic school life to relax and enjoy exploring new ideas and techniques, which we’re sure members can’t wait to try out. We encourage collaborative work and art trades between members to deepen our ties and experience teamwork. <br><br>A major event would be the Arts Fest, where your collaborative work with other club members will be exhibited for the school to see, the behind-the-scenes hardwork and fun in working with other artists-to-be your special take-away, on top of the pride of having your work shown. Club outings include going to see the latest exhibitions in town, so that we can all go together to see the things we like and be wowed by those who have gone further than us in our field. <br><br>It’s a small club where you will have the chance to rub shoulders and make good friends with those who share your unique experience of learning various art forms, be it oil painting, water colour and many more. Entry is determined by both passion and proficiency (prior academic experience is not compulsory!) <br><br>Make sure to block out your Wednesdays, 3pm-5pm, for a fun time with us! In the meantime, do check out our works on hcartclub on Instagram and follow us! <br><br>",
         fullname: "ART CLUB",
