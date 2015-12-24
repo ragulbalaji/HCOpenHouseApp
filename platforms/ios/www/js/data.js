@@ -5,7 +5,7 @@ var ccas = {
         content: "The Infocomm and Robotics Society is a place where you can create anything you wish and change the world. We are a group of individuals filled with passion to pioneer the next generation of breakthrough technologies. Here you’ll get to work with and learn from highly passionate and motivated members who are experts in their own fields -- be it algorithmic design, web stack development, Cyber Security or Electronics. You only need a open mind!\n\nIn today's world, programming & robotics are highly relevant. Under the mentorship of passionate and skilled seniors, you will get to embark on projects of your own, from collaborating on open source projects to even launching your own company. Interested in various exciting expeditions? From Robots that play in a soccer league to writing your own social network, we’ve got it all.\n\nThere are two types of competitions that we participate in: Infocomm and Robotics. For Infocomm competitions, some of those that we participate in include SPLASH Awards, the flagship app-development competition organised by the Singapore Computer Society in which we came in overall Champions last year; the National Olympiad of Informatics (NOI) organised by NUS School of Computing, where we had 2 Silver and 3 Bronze medallists last year. As for Robotics, there is the National Junior Robotics Competition (NJRC) where we came in second for Sumobot category last year; IDA Labs Tech Factor Challenge with a $4000 seed fund per team; and RoboCup Singapore.\n\nAt HCIRS we build the future. Find out more at http://infocommsociety.com/ and email us at hwachongirs@gmail.com or hit us on out facebook page \"Hwa Chong Infocomm & Robotics Society\"",
         website: "https://infocommsociety.com/",
         img: "img/ccas/cns/hcirs.jpg",
-        searchtags: "HCIRS Infocomm and Robotics Society Computers Cyber",
+        searchtags: "HCIRS Infocomm and Robotics Society Computers Cyber"
     },
     cca_template: {
         fullname: "CCA NAME",
@@ -13,15 +13,15 @@ var ccas = {
         content: "main body page",
         website: "https://some_website",
         img: "img/ccas/cns/hcirs.jpg",
-        searchtags: "test test test cca",
+        searchtags: "test test test cca"
     },
-    cca_template2: {
-        fullname: "CCA 2 TEST",
-        introduction: "Short info",
-        content: "main body page",
-        website: "https://some_website",
-        img: "img/ccas/cns/hcirs.jpg",
-        searchtags: "super",
+    art_club: {
+        content: "In Art Club, you are given the freedom to pursue your passion alongside others who share the same feelings as you. Our club values include artistic improvement, as well as having a culture of fun and togetherness! <br>Weekly schedules are decided by the club, for the club. Much flexibility is given for the programme so that members can effectively use club time as their breather from hectic school life to relax and enjoy exploring new ideas and techniques, which we’re sure members can’t wait to try out. We encourage collaborative work and art trades between members to deepen our ties and experience teamwork. <br>A major event would be the Arts Fest, where your collaborative work with other club members will be exhibited for the school to see, the behind-the-scenes hardwork and fun in working with other artists-to-be your special take-away, on top of the pride of having your work shown. Club outings include going to see the latest exhibitions in town, so that we can all go together to see the things we like and be wowed by those who have gone further than us in our field. <br>It’s a small club where you will have the chance to rub shoulders and make good friends with those who share your unique experience of learning various art forms, be it oil painting, water colour and many more. Entry is determined by both passion and proficiency (prior academic experience is not compulsory!) <br>Make sure to block out your Wednesdays, 3pm-5pm, for a fun time with us! In the meantime, do check out our works on hcartclub on Instagram and follow us! <br>",
+        fullname: "ART CLUB",
+        img: "img/ccas/sports/basketball.jpg",
+        introduction: "CCA Sessions: Wednesday (3.00pm-5.30pm)<br>Venue: Science Research Centre Level 3<br>Requirements: NIL<br>How to Join: Interview (with portfolio if applicable)<br>Participation in Competitions: Yes (compulsory to attend 2 competitions in a year)<br>Who to Contact:<br>Claire Ngan, President <br>cnys06@yahoo.com.sg (98256683) <br>Zheng Liying,&nbsp;Vice President zhengliyinglena@gmail.com (86498891)<br>",
+        searchtags: "ART CLUB",
+        website: "http://teamecaco.wix.com/"
     }
 };
 
