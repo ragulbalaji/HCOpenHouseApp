@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.panzoom.min.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/data.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
@@ -33,7 +34,8 @@
 
                 <p><a class="mainbtns" href="#curriculum" data-role="button">&#127979; Curriculum</a></p>
                 <p><a class="mainbtns" href="#activities" data-role="button">&#127881; Activities</a></p>
-                <p><a class="mainbtns" href="#moreinfo" data-role="button">&#128694; &#128663; Maps &#128645; &#128652;</a></p>
+                <p><a class="mainbtns" href="#why" data-role="button">Why Hwa Chong?</a></p>
+                <p><a class="mainbtns" href="#maps" data-role="button">&#128694; &#128663; Maps &#128645; &#128652;</a></p>
                 <p><a class="mainbtns" href="#moreinfo" data-role="button">&#8505; More Info</a></p>
             </center>
         </div>
@@ -59,7 +61,7 @@
             </center>
         </div>
     </div>
-
+	<!-- ACTIVITIES PAGE -->
     <div data-role="page" id="activities">
         <div data-role="header" class="myheader" data-theme="b">
             <a href="#mainpage" data-icon="carat-l">Main</a>
@@ -67,14 +69,14 @@
         </div>
         <div data-role="content">
             <center>
-                <p><a class="subbtns" href="#subjects" data-role="button">Academic Subjects</a></p>
-                <p><a class="subbtns" href="#ccas" data-role="button">CCAs</a></p>
-                <p><a class="subbtns" href="#subjects" data-role="button">H3 Programmes</a></p>
+                <ul data-role="listview" data-theme="b" data-divider-theme="b">
+                	<li>test</li>
+				</ul>
             </center>
 
         </div>
     </div>
-
+	<!-- CURRICULUM PAGE -->
     <div data-role="page" id="curriculum">
         <div data-role="header" class="myheader" data-theme="b">
             <a href="#mainpage" data-icon="carat-l">Main</a>
@@ -124,20 +126,6 @@
         </div>
     </div>
     <!-- CCA LISTS -->
-    <!-- div data-role="page" id="ccas">
-        <div data-role="header" class="myheader" data-theme="b">
-            <a href="#curriculum" data-icon="carat-l">Curriculum</a>
-            <h1>REMOVED by RB</h1>
-        </div>
-        <div data-role="content">
-            <center>
-                <p><a class="subbtns" href="#cns" data-role="button">Clubs and Societies</a></p>
-                <p><a class="subbtns" href="#sports" data-role="button">Sports</a></p>
-                <p><a class="subbtns" href="#perfart" data-role="button">Performing Arts</a></p>
-            </center>
-
-        </div>
-    </div -->
 
     <div data-role="page" id="ccas">
         <div data-role="header" class="myheader" data-theme="b">
@@ -172,7 +160,24 @@
             </center>
         </div>
     </div>
+	<!-- MAPS -->
+	<div data-role="page" id="maps">
+        <div data-role="header" class="myheader" data-theme="b">
+            <a data-rel="back" data-icon="carat-l">Back</a>
+            <h1>Map</h1>
+        </div>
+        <div data-role="content" style="position:relative; background-color:rgba(255, 255, 255, 0.75);">
+            <center>
+                <h1>Getting to Hwa Chong</h1>
+                <img src="img/schoolmap.jpg" id="schoolmap"/>
+                <p>
+					HCI(College) is accessible by buses 66, 67, 151, 154, 157, 170, 174, 852 and 961</br>
 
+					Alight at Hwa Chong JC (Bus stop no. 41051) or Opp Chinese High Sch (Bus stop no. 41069)/br>
+                </p>
+            </center>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -510,4 +510,32 @@ var academics = {
         website: "http://jcelit.wiki.hci.edu.sg/",
         searchtags: "lit el english"
     }
-}
+};
+//ACTIVITIES LIST
+var activities = [
+
+	{
+		time: 1230, 
+		content: "Harmonica Band (8 min)</br>Chinese Dance (TBC – 5 min maximum)</br>Taekwondo (4-5 min)",
+		remarks: "As there is no fixed audience, but a moving flow of people, instead of continuous performances, there will be a break of a few minutes between each item, facilitated by the emcees (e.g. \"Stay around and see you in a few minutes, Chinese Dance will be up onstage\")."
+	},
+	{
+		time: 1300,
+		content: "String Ensemble (10-15 min)</br>Wushu & Lion Dance (15-20 min)"
+	},
+	{
+		time: 1330,
+		content: "MAD Street (3 min 10 s)</br>MAD Modern (TBC – 5 min maximum)</br>Artemis Faculty Dance (5 min)</br>Choir (~10 min)"
+	},
+	{
+		time: 1400,
+		content: "Apollo Faculty Dance (5 min)</br>Concert Band (7 min)</br>Athena Faculty Dance (5 min)</br>Chinese Orchestra (5 min)"
+	},
+	{
+		time: 1430,
+		content: "Ares Faculty Dance (5 min)</br>Council Dance (6 min)</br>SODACHE (45 min)"
+	}
+
+
+
+];
