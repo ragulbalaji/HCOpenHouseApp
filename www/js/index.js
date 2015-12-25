@@ -13,8 +13,21 @@ $(function () {
 
     //create CCA buttons
     for (name in ccas) {
+    	var additionaltags = "";
+    	if(ccas[name].img.indexOf("cns")>-1)
+    	{
+    		additionaltags = " Clubs and Societies";
+    	}
+    	else if(ccas[name].img.indexOf("sports")>-1)
+    	{
+    		additionaltags = " Sports";
+    	}
+    	else if(ccas[name].img.indexOf("arts")>-1)
+    	{
+    		additionaltags = " Performing Arts";
+    	}
         $('#ccas ul').append(
-            $('<li>').attr('data-filtertext', ccas[name].searchtags)
+            $('<li>').attr('data-filtertext', ccas[name].searchtags + additionaltags)
             .attr('data-ccaname', name)
             .append($('<a>')
                 .attr('href', '#ccapage').text(ccas[name].fullname)
