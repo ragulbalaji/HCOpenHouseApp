@@ -13,19 +13,14 @@ $(function () {
 
     //create CCA buttons
     for (name in ccas) {
-    	var additionaltags = "";
-    	if(ccas[name].img.indexOf("cns")>-1)
-    	{
-    		additionaltags = " Clubs and Societies";
-    	}
-    	else if(ccas[name].img.indexOf("sports")>-1)
-    	{
-    		additionaltags = " Sports";
-    	}
-    	else if(ccas[name].img.indexOf("arts")>-1)
-    	{
-    		additionaltags = " Performing Arts";
-    	}
+        var additionaltags = "";
+        if (ccas[name].img.indexOf("cns") > -1) {
+            additionaltags = " Clubs and Societies";
+        } else if (ccas[name].img.indexOf("sports") > -1) {
+            additionaltags = " Sports";
+        } else if (ccas[name].img.indexOf("arts") > -1) {
+            additionaltags = " Performing Arts";
+        }
         $('#ccas ul').append(
             $('<li>').attr('data-filtertext', ccas[name].searchtags + additionaltags)
             .attr('data-ccaname', name)
@@ -63,22 +58,20 @@ $(function () {
         /*$('#subjectpage .subbtns').on('click', function(e){
         	window.open(academics[subjectname].website, '_blank', 'location=yes');
         });*/
-        $('#subjectpage .subbtns').attr('href',academics[subjectname].website);
-        
+        $('#subjectpage .subbtns').attr('href', academics[subjectname].website);
+
         $('#subjectpage p').html(academics[subjectname].content.replace(/(?:\r\n|\r|\n)/g, '<br />'));
     });
-	
-	$('#schoolmap').panzoom();
-	console.log(activities);
-	for(i in activities)
-	{
-		$('#activities ul').append($('<li>').append($('<a>')
-													.attr('href','#activitiespage')
-													.append($('<h3>').text(activities[i].title))
-													.append($('<p>').html(activities[i].content))
-													.append($('<p>').attr('class','ui-li-aside').append($('<strong>').text(activities[i].time)))
-													));
-	}
+
+    console.log(activities);
+    for (i in activities) {
+        $('#activities ul').append($('<li>').append($('<a>')
+            .attr('href', '#activitiespage')
+            .append($('<h3>').text(activities[i].title))
+            .append($('<p>').html(activities[i].content))
+            .append($('<p>').attr('class', 'ui-li-aside').append($('<strong>').text(activities[i].time)))
+        ));
+    }
     /*//create the cca pages
     for (name in ccas) {
         $('body').append($('<div>')
@@ -119,25 +112,25 @@ $(function () {
 
 var app = {
     // Application Constructor
-    initialize: function() {
+    initialize: function () {
         this.bindEvents();
     },
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
+    bindEvents: function () {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
-    onDeviceReady: function() {
+    onDeviceReady: function () {
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
-    receivedEvent: function(id) {
+    receivedEvent: function (id) {
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
@@ -148,4 +141,3 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-
