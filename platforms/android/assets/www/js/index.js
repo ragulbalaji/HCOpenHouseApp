@@ -72,12 +72,12 @@ $(function () {
 	console.log(activities);
 	for(i in activities)
 	{
-		/*$('#activities ul').append($('<li>').append($('<a>')
+		$('#activities ul').append($('<li>').append($('<a>')
 													.attr('href','#activitiespage')
 													.append($('<h3>').text(activities[i].title))
 													.append($('<p>').html(activities[i].content))
 													.append($('<p>').attr('class','ui-li-aside').append($('<strong>').text(activities[i].time)))
-													));*/
+													));
 	}
     /*//create the cca pages
     for (name in ccas) {

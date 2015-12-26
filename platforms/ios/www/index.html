@@ -31,10 +31,9 @@
         <div data-role="content">
             <center>
                 <img id="mainlogo" src="img/hcibanner.png">
-
+                <p><a class="mainbtns" href="#why" data-role="button">Why Hwa Chong?</a></p>
                 <p><a class="mainbtns" href="#curriculum" data-role="button">&#127979; Curriculum</a></p>
                 <p><a class="mainbtns" href="#activities" data-role="button">&#127881; Activities</a></p>
-                <p><a class="mainbtns" href="#why" data-role="button">Why Hwa Chong?</a></p>
                 <p><a class="mainbtns" href="#maps" data-role="button">&#128694; &#128663; Maps &#128645; &#128652;</a></p>
                 <p><a class="mainbtns" href="#moreinfo" data-role="button">&#8505; More Info</a></p>
             </center>
@@ -61,7 +60,7 @@
             </center>
         </div>
     </div>
-	<!-- ACTIVITIES PAGE -->
+    <!-- ACTIVITIES PAGE -->
     <div data-role="page" id="activities">
         <div data-role="header" class="myheader" data-theme="b">
             <a href="#mainpage" data-icon="carat-l">Main</a>
@@ -70,13 +69,13 @@
         <div data-role="content">
             <center>
                 <ul data-role="listview" data-theme="b" data-divider-theme="b">
-                	<li>test</li>
-				</ul>
+                    <li>test</li>
+                </ul>
             </center>
 
         </div>
     </div>
-	<!-- CURRICULUM PAGE -->
+    <!-- CURRICULUM PAGE -->
     <div data-role="page" id="curriculum">
         <div data-role="header" class="myheader" data-theme="b">
             <a href="#mainpage" data-icon="carat-l">Main</a>
@@ -119,7 +118,7 @@
         </div>
         <div data-role="content">
             <center>
-                <a class="subbtns" data-role="button" data-theme="b" target="_blank" >Visit Website</a>
+                <a class="subbtns" data-role="button" data-theme="b" target="_blank">Visit Website</a>
                 <p></p>
             </center>
 
@@ -160,23 +159,32 @@
             </center>
         </div>
     </div>
-	<!-- MAPS -->
-	<div data-role="page" id="maps">
+    <!-- MAPS -->
+    <div data-role="page" id="maps">
         <div data-role="header" class="myheader" data-theme="b">
             <a data-rel="back" data-icon="carat-l">Back</a>
             <h1>Map</h1>
         </div>
-        <div data-role="content" style="position:relative; background-color:rgba(255, 255, 255, 0.75);">
-            <center>
-                <h1>Getting to Hwa Chong</h1>
-                <img src="img/schoolmap.jpg" id="schoolmap"/>
-                <p>
-					HCI(College) is accessible by buses 66, 67, 151, 154, 157, 170, 174, 852 and 961</br>
-
-					Alight at Hwa Chong JC (Bus stop no. 41051) or Opp Chinese High Sch (Bus stop no. 41069)/br>
-                </p>
-            </center>
-        </div>
+        <!--div data-role="content" style="position:relative;"-->
+        <center data-role="content">
+            <h1>Getting to HCI</h1>
+            <iframe id="gmapper" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.750064217898!2d103.8045544941306!3d1.325892935062336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a09bbc92047%3A0xa1220963b9dd51d5!2sHwa+Chong+Institution!5e0!3m2!1sen!2ssg!4v1451116462847" width="100" height="100" frameborder="0" style="border:0"></iframe>
+            <script>
+                document.getElementById("gmapper").width = window.innerWidth * 0.9;
+                document.getElementById("gmapper").height = window.innerWidth * 0.9;
+            </script>
+            <p><a onclick="window.open('https://www.google.com.sg/maps/dir//Hwa+Chong+Institution,+661+Bukit+Timah+Road,+Singapore+269734/@1.3261933,103.8013251,17z/data=!4m13!1m4!3m3!1s0x31da1a09bbc92047:0xa1220963b9dd51d5!2sHwa+Chong+Institution!3b1!4m7!1m0!1m5!1m1!1s0x31da1a09bbc92047:0xa1220963b9dd51d5!2m2!1d103.8035138!2d1.3261879',' _system ');" class="subbtns" data-role="button" data-theme="b">Get Directions</a></p>
+            <p>
+                HCI sits right atop Tan Kah Kee station which is located along the Downtown line Phase 2
+                <br>
+                <br> HCI(College) is accessible by buses 66, 67, 151, 154, 157, 170, 174, 852 and 961
+                <br>
+                <br> Alight at Hwa Chong JC (Bus stop no. 41051) or Opp Chinese High Sch (Bus stop no. 41069)
+            </p>
+            <h1>Getting around HCI</h1>
+            <div style="overflow-y: scroll; overflow-x: scroll;"><img src="img/schoolmap.jpg" id="schoolmap" /></div>
+        </center>
+        <!--/div-->
     </div>
 </body>
 
