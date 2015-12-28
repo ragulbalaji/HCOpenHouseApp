@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ragulbalaji.hcopenhouse"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ragulbalaji.hcopenhouse"
         }
     },
     "dependent_plugins": {}
