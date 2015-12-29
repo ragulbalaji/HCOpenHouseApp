@@ -38,8 +38,8 @@ $(function () {
         $('#ccapage').css('background-size', 'cover');
         $('#ccamainimg').attr('src', ccas[ccaname].img);
         $('#ccapage h1').html(ccas[ccaname].fullname);
-        $('#ccaintro').html(ccas[ccaname].introduction.replace(/(?:\r\n|\r|\n)/g, '<br />'));
-        $('#ccacontent').html(ccas[ccaname].content.replace(/(?:\r\n|\r|\n)/g, '<br />'));
+        $('#ccaintro').html(ccas[ccaname].introduction.replace(/(?:\r\n|\r|\n)/g, '<br/>'));
+        $('#ccacontent').html(ccas[ccaname].content.replace(/(?:\r\n|\r|\n)/g, '<br/>'));
     });
 
     for (name in academics) {
@@ -55,15 +55,15 @@ $(function () {
     $('#subjects ul li a').on('click', function (e) {
         var subjectname = $(this).attr('data-subjectname');
         $('#subjectpage h1').html(academics[subjectname].fullname);
-        ///*
-        $('#subjectpage .subbtns').on('click', function (e) {
-            window.open(academics[subjectname].website, '_blank', 'location=yes');
-        }); //*/
+        $('#subjectpage .subbtns').data('subjectname',subjectname);
         //$('#subjectpage .subbtns').attr('href', academics[subjectname].website);
 
-        $('#subjectpage p').html(academics[subjectname].content.replace(/(?:\r\n|\r|\n)/g, '<br />'));
+        $('#subjectpage p').html(academics[subjectname].content.replace(/(?:\r\n|\r|\n)/g, '<br/>'));
     });
-
+	$('#subjectpage .subbtns').on('click', function (e) {
+		var subjectname = $(this).data('subjectname');
+		window.open(academics[subjectname].website, '_blank', 'location=yes');
+    });
     console.log(activities);
     for (i in activities) {
         $('#activities ul').append($('<li>').append($('<a>')
@@ -73,6 +73,18 @@ $(function () {
             .append($('<p>').attr('class', 'ui-li-aside').append($('<strong>').text(activities[i].time)))
         ));
     }
+    
+    $('#fbbtn').on('click', function (e) {
+		window.open('https://www.facebook.com/hcunite', '_blank', 'location=yes');
+    });
+    
+    $('#twitterbtn').on('click', function (e) {
+		window.open('http://twitter.com/hcunite', '_blank', 'location=yes');
+    });
+    
+    $('#webbtn').on('click', function (e) {
+		window.open('http://hcunite.com/', '_blank', 'location=yes');
+    });
     /*//create the cca pages
     for (name in ccas) {
         $('body').append($('<div>')
