@@ -90,11 +90,6 @@ p {
     background-size: cover;
 }
 
-#why {
-    background: url("../img/linen.png") center center fixed;
-    background-size: contain;
-}
-
 #moreinfo {
     background: url("../img/code.png") no-repeat center center fixed;
     background-size: cover;
