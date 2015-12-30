@@ -65,10 +65,14 @@ h2 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
 }
 
+p li
+{
+	text-align:left;
+}
 #mainlogo {
     display: none;
     width: 90vw;
