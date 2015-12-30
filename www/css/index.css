@@ -85,6 +85,16 @@ p {
     background-size: cover;
 }
 
+#activities {
+    background: url("../img/activitiesbg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#why {
+    background: url("../img/linen.png") center center fixed;
+    background-size: contain;
+}
+
 #moreinfo {
     background: url("../img/code.png") no-repeat center center fixed;
     background-size: cover;
@@ -135,34 +145,12 @@ p {
     width: 20vw;
     padding: 0;
     padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
     height: auto;
 }
 
 li {
     font-size: 20px;
     text-align: center;
-}
-
-.roundbtn {
-    width: 75px;   
-	height: 75px;
-    border-radius: 50%;
-    display:inline-block;
-}
-
-#fbbtn{
-	background: url("../img/social/facebook.png") no-repeat center center fixed;
-    background-size: contain;
-}
-
-#twitterbtn{
-	background: url("../img/social/twitter.png") no-repeat center center fixed;
-    background-size: contain;
-}
-
-#webbtn{
-	background: url("../img/social/web.png") no-repeat center center fixed;
-    background-size: contain;
 }

@@ -55,14 +55,14 @@ $(function () {
     $('#subjects ul li a').on('click', function (e) {
         var subjectname = $(this).attr('data-subjectname');
         $('#subjectpage h1').html(academics[subjectname].fullname);
-        $('#subjectpage .subbtns').data('subjectname',subjectname);
+        $('#subjectpage .subbtns').data('subjectname', subjectname);
         //$('#subjectpage .subbtns').attr('href', academics[subjectname].website);
 
         $('#subjectpage p').html(academics[subjectname].content.replace(/(?:\r\n|\r|\n)/g, '<br/>'));
     });
-	$('#subjectpage .subbtns').on('click', function (e) {
-		var subjectname = $(this).data('subjectname');
-		window.open(academics[subjectname].website, '_blank', 'location=yes');
+    $('#subjectpage .subbtns').on('click', function (e) {
+        var subjectname = $(this).data('subjectname');
+        window.open(academics[subjectname].website, '_blank', 'location=yes');
     });
     console.log(activities);
     for (i in activities) {
@@ -73,17 +73,17 @@ $(function () {
             .append($('<p>').attr('class', 'ui-li-aside').append($('<strong>').text(activities[i].time)))
         ));
     }
-    
+
     $('#fbbtn').on('click', function (e) {
-		window.open('https://www.facebook.com/hcunite', '_blank', 'location=yes');
+        window.open('https://www.facebook.com/hcunite', '_blank', 'location=no');
     });
-    
+
     $('#twitterbtn').on('click', function (e) {
-		window.open('http://twitter.com/hcunite', '_blank', 'location=yes');
+        window.open('http://twitter.com/hcunite', '_blank', 'location=no');
     });
-    
+
     $('#webbtn').on('click', function (e) {
-		window.open('http://hcunite.com/', '_blank', 'location=yes');
+        window.open('http://hci.edu.sg/', '_blank', 'location=yes');
     });
     /*//create the cca pages
     for (name in ccas) {
