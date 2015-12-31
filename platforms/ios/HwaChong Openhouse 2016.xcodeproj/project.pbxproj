@@ -415,7 +415,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tze Wei Loh (57JML3BF68)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -438,9 +438,9 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sg..ragulbalaji.hcopenhouse;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.hci.ragulbalaji.hcopenhouse;
 				PRODUCT_NAME = "HwaChong Openhouse 2016";
-				PROVISIONING_PROFILE = "3a8d9a96-2961-4d35-997b-de92fc99f581";
+				PROVISIONING_PROFILE = "8c747c10-06ef-4672-8f0a-331c97fb02ef";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -450,7 +450,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tze Wei Loh (57JML3BF68)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -471,9 +471,9 @@
 					"-weak-lSystem",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sg..ragulbalaji.hcopenhouse;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.hci.ragulbalaji.hcopenhouse;
 				PRODUCT_NAME = "HwaChong Openhouse 2016";
-				PROVISIONING_PROFILE = "3a8d9a96-2961-4d35-997b-de92fc99f581";
+				PROVISIONING_PROFILE = "8c747c10-06ef-4672-8f0a-331c97fb02ef";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
