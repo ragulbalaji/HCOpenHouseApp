@@ -440,7 +440,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.hci.ragulbalaji.hcopenhouse;
 				PRODUCT_NAME = "HwaChong Openhouse 2016";
-				PROVISIONING_PROFILE = "8c747c10-06ef-4672-8f0a-331c97fb02ef";
+				PROVISIONING_PROFILE = "3a8d9a96-2961-4d35-997b-de92fc99f581";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,7 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.hci.ragulbalaji.hcopenhouse;
 				PRODUCT_NAME = "HwaChong Openhouse 2016";
-				PROVISIONING_PROFILE = "8c747c10-06ef-4672-8f0a-331c97fb02ef";
+				PROVISIONING_PROFILE = "3a8d9a96-2961-4d35-997b-de92fc99f581";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
